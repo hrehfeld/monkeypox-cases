@@ -1,20 +1,49 @@
 cases:
-  - date: 2022-05-20
-    location: Munich
+  - announcement: 2022-05-20
+    area: Sydney
+    country: au
+    source continent: eu
+    age: 40-50
+    sex: male
+    status: confirmed
+    sources:
+      - https://www.health.nsw.gov.au/news/Pages/20220520_01.aspx
+
+  - announcement: 2022-05-20
+    symptoms: 2022-05-16
+    area: Melbourne
+    country: au
+    source area: London
+    source country: uk
+    age: 30-40
+    sex: male
+    status: confirmed
+    sources:
+      - https://www.abc.net.au/news/2022-05-20/monkeypox-case-in-sydney-and-melbourne/101084864
+  - announcement: 2022-05-20
+    area: München
     country: de
     age: 26
     sex: male
     status: confirmed
     sources:
       - https://www.stmgp.bayern.de/presse/holetschek-affenpocken-fall-in-bayern-bestaetigt-patient-in-muenchen-klinik-schwabing/
-  - date: 2022-05-19
-    location: Stockholm
+  - announcement: 2022-05-19
+    area: Île-de-France
+    country: fr
+    age: 29
+    sex: male
+    status: confirmed
+    sources:
+      - https://www.bfmtv.com/sante/en-direct-variole-du-singe-un-premier-cas-detecte-en-ile-de-france_LN-202205200115.html
+  - announcement: 2022-05-19
+    area: Stockholm
     country: se
     status: confirmed
     sources:
       - https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2022/maj/ett-fall-av-apkoppor-rapporterat-i-sverige/
-  - date: 2022-05-18
-    location: Massachusetts
+  - announcement: 2022-05-18
+    area: Massachusetts
     country: us
     status: confirmed
     age: adult
@@ -22,8 +51,8 @@ cases:
     sources:
       - https://www.mass.gov/news/massachusetts-public-health-officials-confirm-case-of-monkeypox
 
-  - date: 2022-05-19
-    location: Massachusetts
+  - announcement: 2022-05-19
+    location: New York
     country: us
     status: suspected
     sources:
