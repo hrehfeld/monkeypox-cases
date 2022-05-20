@@ -1,0 +1,8 @@
+cases:
+  - date: 2022-05-20
+    location: Munich
+    country: de
+    age: 26
+    sex: male
+    sources:
+      - https://www.stmgp.bayern.de/presse/holetschek-affenpocken-fall-in-bayern-bestaetigt-patient-in-muenchen-klinik-schwabing/
