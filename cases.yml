@@ -4,5 +4,27 @@ cases:
     country: de
     age: 26
     sex: male
+    status: confirmed
     sources:
       - https://www.stmgp.bayern.de/presse/holetschek-affenpocken-fall-in-bayern-bestaetigt-patient-in-muenchen-klinik-schwabing/
+  - date: 2022-05-19
+    location: Stockholm
+    country: se
+    status: confirmed
+    sources:
+      - https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2022/maj/ett-fall-av-apkoppor-rapporterat-i-sverige/
+  - date: 2022-05-18
+    location: Massachusetts
+    country: us
+    status: confirmed
+    age: adult
+    sex: male
+    sources:
+      - https://www.mass.gov/news/massachusetts-public-health-officials-confirm-case-of-monkeypox
+
+  - date: 2022-05-19
+    location: Massachusetts
+    country: us
+    status: suspected
+    sources:
+      - https://twitter.com/nycHealthy/status/1527406751724752901
