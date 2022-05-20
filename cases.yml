@@ -1,8 +1,44 @@
 cases:
   - announcement: 2022-05-20
+    area: Rome
+    country: it
+    status: confirmed
+    sources:
+      - https://www.reuters.com/business/healthcare-pharmaceuticals/italy-confirms-two-more-monkeypox-infections-brings-total-cases-three-2022-05-20/
+  - announcement: 2022-05-20
+    area: Rome
+    country: it
+    status: confirmed
+    sources:
+      - https://www.reuters.com/business/healthcare-pharmaceuticals/italy-confirms-two-more-monkeypox-infections-brings-total-cases-three-2022-05-20/
+  - announcement: 2022-05-19
+    area: Rome
+    country: it
+    source:
+      area: Canary Islands
+      country: es
+    status: confirmed
+    sources:
+      - https://www.reuters.com/business/healthcare-pharmaceuticals/italy-confirms-two-more-monkeypox-infections-brings-total-cases-three-2022-05-20/
+  - announcement: 2022-05-20
+    area: Flämisch-Brabant
+    country: be
+    sex: male
+    status: confirmed
+    sources:
+      - https://www.hln.be/binnenland/tweede-geval-van-apenpokkenvirus-opgedoken-in-ons-land~a33da19f/?referrer=https%3A%2F%2Fen.wikipedia.org%2F
+  - announcement: 2022-05-19
+    area: Antwerpen
+    country: be
+    status: confirmed
+    sources:
+      - https://www.vrt.be/vrtnws/nl/2022/05/19/apenpokken-eerste-geval-in-ons-land/
+
+  - announcement: 2022-05-20
     area: Sydney
     country: au
-    source continent: eu
+    source:
+      continent: eu
     age: 40-50
     sex: male
     status: confirmed
@@ -13,8 +49,9 @@ cases:
     symptoms: 2022-05-16
     area: Melbourne
     country: au
-    source area: London
-    source country: uk
+    source:
+      area: London
+      country: uk
     age: 30-40
     sex: male
     status: confirmed
